@@ -1,0 +1,33 @@
+p{
+  text-align: center;
+}
+#screen{
+  background-color: black;
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+}
+.screen-text-color{
+  color: green;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  text-align: start;
+}
+h1 {
+  position: absolute;
+  left: -10000px;
+}
+h3 {
+  font-size:2vw
+}
+input{
+  background-color: black;
+  text-decoration-color: green;
+}
+button{
+
+}

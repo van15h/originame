@@ -7,6 +7,8 @@
   <meta name="description" content="Customize your username to make it really original and remarkable.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
   <link rel="shortcut icon" href="#" type="image/x-icon">
   <title>originame</title>
 </head>
@@ -16,7 +18,7 @@
     <!-- TODO make invisible -->
     <h1>originame</h1>
     <!-- TODO move style to style, colors, size on fullscreen -->
-    <h3 style="font-size:2vw">
+    <h3>
       <pre>
        ██████╗ ██████╗ ██╗ ██████╗ ██╗███╗   ██╗ █████╗ ███╗   ███╗███████╗
       ██╔═══██╗██╔══██╗██║██╔════╝ ██║████╗  ██║██╔══██╗████╗ ████║██╔════╝
@@ -33,17 +35,23 @@
   <main>
     <br>
     <div id="screen">
-      <p>type your current username and press Enter:
-        <input type="text">
+      <p class="screen-text-color">type your current username and press Enter:
+        <!-- TODO make it one sign big and blinking at the beginnnig, then stop blinking and let grow responsive while typing -->
+        <!-- TODO 20 signs exception -->
+        <input class="screen-text-color" type="text" >
       </p>
     </div>
+    <br>
+    <button type="submit">Generate</button>
     <br>
   </main>
 
   <footer>
-    <a href="#" title="Fork me on GitHub">github</a>
-    <a href="#" title="Follow me Twitter">twitter</a>
-    <a href="mailto:" title="Share link via Email">mail</a>
+    <p>&copy; 2018 van15h
+      <a href="#" title="Fork me on GitHub">github</a>
+      <a href="#" title="Follow me Twitter">twitter</a>
+      <a href="mailto:" title="Share link via Email">mail</a>
+    </p>
   </footer>
 
   <script src="#"></script>
