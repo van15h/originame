@@ -1,6 +1,7 @@
 p{
   text-align: center;
 }
+
 #screen{
   background-color: black;
   border-color: red;
@@ -21,13 +22,15 @@ h1 {
   position: absolute;
   left: -10000px;
 }
-h3 {
-  font-size:2vw
+pre{
+  text-align: center;
+}
+@media(max-width: 800px){
+  h3 {
+    font-size:2vw;
+  }
 }
 input{
   background-color: black;
   text-decoration-color: green;
-}
-button{
-
 }
