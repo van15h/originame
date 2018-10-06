@@ -2,21 +2,23 @@ h1 {
   position: absolute;
   left: -10000px;
 }
-pre{
-  text-align: center;
-}
-@media(max-width: 600px){
-  h3 {
-    font-size:2vw;
-  }
-  #screen{
 
-  }
-}
-p{
+pre {
   text-align: center;
 }
-#screen{
+
+@media(max-width: 600px) {
+  h3 {
+    font-size: 2vw;
+  }
+  #screen {}
+}
+
+p {
+  text-align: center;
+}
+
+#screen {
   background-color: black;
   border-color: red;
   border-width: 3px;
@@ -26,23 +28,27 @@ p{
   height: 500px;
   margin: auto;
 }
-.screen-text-color{
+
+.screen-text-color {
   color: green;
   font-family: 'Share Tech Mono', monospace;
   font-size: 16px;
   text-align: start;
 }
-input{
+
+input {
   background-color: black;
   text-decoration-color: green;
 }
-.wrapper{
+
+.wrapper {
   text-align: center;
 }
-footer{
+
+footer {
   /* to fix to bottom */
   position: absolute;
   bottom: 10px;
-   /* to align center */
+  /* to align center */
   width: 100%;
 }
