@@ -1,7 +1,18 @@
+h1 {
+  position: absolute;
+  left: -10000px;
+}
+pre{
+  text-align: center;
+}
+@media(max-width: 800px){
+  h3 {
+    font-size:2vw;
+  }
+}
 p{
   text-align: center;
 }
-
 #screen{
   background-color: black;
   border-color: red;
@@ -18,19 +29,10 @@ p{
   font-size: 16px;
   text-align: start;
 }
-h1 {
-  position: absolute;
-  left: -10000px;
-}
-pre{
-  text-align: center;
-}
-@media(max-width: 800px){
-  h3 {
-    font-size:2vw;
-  }
-}
 input{
   background-color: black;
   text-decoration-color: green;
+}
+.wrapper{
+  text-align: center;
 }
