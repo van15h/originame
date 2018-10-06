@@ -11,7 +11,6 @@ pre {
   h3 {
     font-size: 2vw;
   }
-  #screen {}
 }
 
 p {
@@ -32,13 +31,19 @@ p {
 .screen-text-color {
   color: green;
   font-family: 'Share Tech Mono', monospace;
-  font-size: 16px;
+  font-size: 24px;
   text-align: start;
+  padding-inline-start: 10px;
+}
+
+#output {
+  border-color: blue;
 }
 
 input {
   background-color: black;
   text-decoration-color: green;
+  width: 130px;
 }
 
 .wrapper {

@@ -16,7 +16,6 @@
 <body>
   <header>
     <h1>originame</h1>
-    <!-- TODO move style to style, colors, size on fullscreen -->
     <h3>
       <pre>
    ██████╗ ██████╗ ██╗ ██████╗ ██╗███╗   ██╗ █████╗ ███╗   ███╗███████╗
@@ -34,15 +33,17 @@
   <main>
     <br>
     <div id="screen">
-      <p class="screen-text-color">type your current username and press Enter:
+      <p class="screen-text-color">type username and press Enter:
         <!-- TODO make it one sign big and blinking at the beginnnig, then stop blinking and let grow responsive while typing -->
         <!-- TODO 20 signs exception -->
-        <input class="screen-text-color" type="text">
+        <input id="inputName" class="screen-text-color" type="text">
+        <p id="output" class="screen-text-color"></p>
       </p>
     </div>
+
     <br>
     <div class="wrapper">
-      <button class="button">Generate</button>
+      <button onclick="generate()">Generate</button>
     </div>
 
     <br>
@@ -54,9 +55,7 @@
       <a href="mailto:" title="Share link via Email">mail</a>
     </p>
   </footer>
-
-
-  <script src="#"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
