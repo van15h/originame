@@ -36,14 +36,15 @@
       <p class="screen-text-color">type username and press Enter:
         <!-- TODO make it one sign big and blinking at the beginnnig, then stop blinking and let grow responsive while typing -->
         <!-- TODO 20 signs exception -->
-        <input id="inputName" class="screen-text-color" onclick="clearDisplay()" type="text">
+        <input id="inputName" class="screen-text-color" onclick="clearDisplay()" type="text" onkeydown = "if (event.keyCode == 13)
+        document.getElementById('btn').click()">
         <p id="output" class="screen-text-color"></p>
       </p>
     </div>
 
     <br>
     <div class="wrapper">
-      <button onclick="generate()">Generate</button>
+      <button id="btn" onclick="generate()">Generate</button>
     </div>
 
     <br>

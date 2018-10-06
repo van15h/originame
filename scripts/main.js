@@ -1,5 +1,6 @@
 // TODO add intervals for output and sample
-
+// TODO cookies to not to show onload sample one more time
+document.get
 function musterData() {
   var inputName = document.getElementById("inputName");
   inputName.value = "mustermann";
