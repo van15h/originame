@@ -1,10 +1,17 @@
 // TODO add intervals for output and sample
 // TODO cookies to not to show onload sample one more time
-document.get
+
 function musterData() {
   var inputName = document.getElementById("inputName");
   inputName.value = "mustermann";
-  document.getElementById("output").textContent = "mu5termann mu5t3rmann mu5t3rm4nn must3rmann must3rm4nn musterm4nn mu5term4nn";
+  var output = document.getElementById("output");
+  setTimeout(function(){output.textContent += "mu5termann" + " " }, 500);
+  setTimeout(function(){output.textContent += "mu5t3rmann" + " " }, 1000);
+  setTimeout(function(){output.textContent += "mu5t3rm4nn" + " "}, 1500);
+  setTimeout(function(){output.textContent += "must3rmann" + " "}, 2000);
+  setTimeout(function(){output.textContent += "must3rm4nn" + " "}, 2500);
+  setTimeout(function(){output.textContent += "musterm4nn" + " "}, 3000);
+  setTimeout(function(){output.textContent += "mu5term4nn" + " "}, 3500);
 }
 
 function clearDisplay(){
