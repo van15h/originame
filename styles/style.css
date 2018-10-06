@@ -5,9 +5,12 @@ h1 {
 pre{
   text-align: center;
 }
-@media(max-width: 800px){
+@media(max-width: 600px){
   h3 {
     font-size:2vw;
+  }
+  #screen{
+
   }
 }
 p{
@@ -35,4 +38,11 @@ input{
 }
 .wrapper{
   text-align: center;
+}
+footer{
+  /* to fix to bottom */
+  position: absolute;
+  bottom: 10px;
+   /* to align center */
+  width: 100%;
 }
